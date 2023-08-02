@@ -1,29 +1,10 @@
-// .nava {
-//     padding:1px 8.5rem;
-//     align-items: flex-end;
-// }
-
-// .grid-container {
-//     display:inline-flex;
-//     gap: 0.5rem;
-//   }
-
-//   .nava h2 {
-//     float:right;
-//   }
-
-//   .navbar {
-//     position:fixed;
-//     width:fit-content;
-//     height: fit-content;
-//   }
 
 * {
     font-family: 'Nunito';
 }
 
   .navbar {
-    width: 1260px;
+    width: 1262px;
   }
 
   .bg-transparent {
@@ -35,6 +16,12 @@
   div.atlas_logo {
     display:grid;
     grid-template-columns: 4rem 4rem;
+  }
+
+  @media (max-width:768px) {
+    .navbar {
+      width:390px;
+    }
   }
 
 
