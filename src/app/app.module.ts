@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { TermsnconditionComponent } from './termsncondition/termsncondition.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    TermsnconditionComponent
+    TermsnconditionComponent,
+    LandingpageComponent
   ],
   imports: [
     BrowserModule,
