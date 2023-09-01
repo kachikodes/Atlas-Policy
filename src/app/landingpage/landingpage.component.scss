@@ -1,7 +1,124 @@
 //
 
+.at {
+  font-family: "Poppins", sans-serif;
+}
+
+.gate {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.now {
+  color: #fff;
+  line-height: 23px;
+}
+
+.noww {
+  color: #1cbbce;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+.span {
+  color: #1cbbce;
+}
+.gated {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.gator {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.dscv {
+  color:#56585C;
+  font-size: 16px;
+  line-height: 27px;
+
+}
+
+.gatee {
+  font-size: 16px;
+  line-height: 24px;
+}
+.sani {
+  color: #fff;
+}
+
+.be {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.pop {
+  font-size: 18px;
+}
+
+.solulu {
+  color: #1cbbce;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.pzna {
+  color: #1cbbce;
+  font-size: 18px;
+}
+
+.penny {
+  font-size: 21px;
+  color: #1cbbce;
+  line-height: 30px;
+}
+
+.blk {
+  color: #040916;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 43px;
+}
+
+.lk {
+  font-size: 20px;
+  line-height: 26px;
+  color: #1cbbce;
+}
+
+.ft {
+  font-size: 24px;
+  line-height: 36px;
+  color: #1cbbce;
+}
+
+.ap {
+  font-size: 36px;
+  line-height: 46px;
+}
+
 .rx {
   margin: auto;
+}
+.ungaton {
+font-family: 'DM Sans', sans-serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.whoweare{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+
+color:#FFFFFF;
+
+
 }
 
 .img-fluid {
@@ -12,7 +129,7 @@
 
 .canter {
   z-index: 2;
-  top: -130px;
+  top: -180px;
   height: auto;
   background-color: #022f34;
   color: white;
@@ -73,71 +190,118 @@
 }
 
 .row-multiples {
-    margin:100px 0px 0px;
+  margin: 100px 0px 0px;
 }
 
 .phone {
-    height: auto;
+  height: auto;
   max-width: 100%;
 }
 
 .row-fine {
-    margin:70px 0px 0px;
+  margin: 70px 0px 0px;
 }
 
 .fine {
-    height: auto;
+  height: auto;
   max-width: 100%;
-  z-index:-2;
+  z-index: -2;
 }
 
 .mg {
-    margin-left: -70px;
+  margin-left: -70px;
 }
 
 .flexums {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .kardi {
-    border-radius: 22.143px;
-    background: #FFF;
-    box-shadow: 11.07146px 44.28582px 55.35727px 0px rgba(229, 233, 246, 0.40);
-    border:none;
+  border-radius: 22.143px;
+  background: #fff;
+  box-shadow: 11.07146px 44.28582px 55.35727px 0px rgba(229, 233, 246, 0.4);
+  border: none;
 }
 
-.card-title {
-    color: #1CBBCE;
-// text-align: center;
-// font-family: Poppins;
-// font-size: 20px;
-// font-style: normal;
-// font-weight: 600;
-// line-height: normal;
+.card-title .pli {
+  color: #1cbbce;
+  // text-align: center;
+  // font-family: Poppins;
+  // font-size: 20px;
+  // font-style: normal;
+  // font-weight: 600;
+  // line-height: normal;
 }
 
+.cano {
+  height: 100%;
+  border-radius: 30px;
+  background: #f6f6f6;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+// .row-last {
+//   margin:10px 30px 0px;
+// }
+
+.date {
+  height: auto;
+  max-width: 80%;
+}
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    #1cbbce 0%,
+    #0b5f69 44.33%,
+    #054047 97.18%
+  );
+  margin-top: 100px 0px 0px;
+  padding: 20px 0px 20px 0px;
+  min-height: 100px;
+}
+
+.row-atlass {
+  margin: 60px;
+  border-bottom: 1px ridge;
+  padding-bottom: 20px;
+}
+.ride {
+  border-bottom: 1px ridge;
+  margin: -30px 60px 0px;
+  padding-bottom: 20px;
+}
+.abeg {
+  color: #fff;
+}
 // MEDIA QUERIES
-@media (max-device-width:576px) {
-    .flix {
-        padding-top: 10px;
-      }
-    .mg {
-        margin-left: 0px;
-    }
+@media (max-device-width: 576px) {
+  .flix {
+    padding-top: 10px;
+  }
+  .mg {
+    margin-left: 0px;
+  }
 
-    .flexums {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0px;
-        margin-bottom:0px;
-    }
+  .flexums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 0px;
+  }
 
-    .kardi {
-        margin-bottom:15px;
-    }
+  .kardi {
+    margin-bottom: 15px;
+  }
+
+  .cano {
+    margin-bottom: 50px;
+  }
 }
