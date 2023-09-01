@@ -314,3 +314,28 @@ color:#FFFFFF;
     margin-bottom: 50px;
   }
 }
+
+@media (max-device-width: 768px) {
+  .flix {
+    padding-top: 10px;
+  }
+  .mg {
+    margin-left: 0px;
+  }
+
+  .flexums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 0px;
+  }
+
+  .kardi {
+    margin-bottom: 15px;
+  }
+
+  .cano {
+    margin-bottom: 50px;
+  }
+}

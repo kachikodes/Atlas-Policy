@@ -7,9 +7,14 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo:'homepage',
+    redirectTo:'landingpage',
     pathMatch: 'full' 
   },
+
+  {
+    path: 'landingpage',
+    component: LandingpageComponent
+  }
 
   {
     path: 'termsncondition',
@@ -21,10 +26,6 @@ const routes: Routes = [
   component: HomepageComponent
   }, 
 
-  {
-    path: 'landingpage',
-    component: LandingpageComponent
-  }
 
 ];
 
