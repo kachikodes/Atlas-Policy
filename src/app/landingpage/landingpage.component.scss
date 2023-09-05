@@ -17,6 +17,15 @@ text-align: left;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
+
+.way {
+ font-size: 45px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 3.5px;
+text-align: left;
+
+}
 .now {
   color: #fff;
   line-height: 23px;
@@ -130,19 +139,21 @@ color:#FFFFFF;
 
 }
 
-.img-fluid {
+.img-fluid  {
   height: auto;
-  max-width: 80%;
+  max-width: 100%;
   z-index: -2;
+  // margin-left: 20px;
+  
 }
 
 .canter {
   z-index: 2;
-  top: -180px;
+  top: -205px;
   height: auto;
   background-color: #022f34;
   color: white;
-  border-radius: 8px;
+  border-radius: 30px;
 }
 
 .text {
@@ -189,6 +200,11 @@ color:#FFFFFF;
   height: auto;
   border-radius: 30px;
   background: rgba(28, 187, 206, 0.16);
+  border:none;
+}
+
+.ty {
+  border:none;
 }
 
 .flexella {
